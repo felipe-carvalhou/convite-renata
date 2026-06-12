@@ -243,6 +243,34 @@
       .info-grid-2 { grid-template-columns: 1fr; }
     }
 
+    /* Manual do Convidado */
+    .manual-item {
+      background: rgba(255,255,255,.4);
+      border-left: 3px solid var(--lilac);
+      border-radius: 0.5rem;
+      padding: 0.75rem 1rem;
+      margin-bottom: 0.6rem;
+      text-align: left;
+    }
+
+    .manual-item strong {
+      font-family: 'Cinzel', serif;
+      font-size: 0.68rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--lilac-deep);
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+
+    .manual-item p {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 0.95rem;
+      color: var(--lilac-ink);
+      line-height: 1.5;
+    }
+
     /* RSVP highlight box */
     .rsvp-box {
       background: linear-gradient(135deg, rgba(212,190,240,.4), rgba(245,196,232,.3));
@@ -781,6 +809,29 @@
     <div class="rsvp-box">
       <p class="info-label">Confirmar presença até</p>
       <p class="info-value-script">20 · 08 · 2026</p>
+    </div>
+
+    <div class="info-card" style="text-align:center;">
+      <p class="info-label" style="margin-bottom:1rem;">Manual do Convidado</p>
+
+      <div class="manual-item">
+        <strong>Código de vestimenta</strong>
+        <p>Não utilize roupas nas cores roxo ou lilás.</p>
+      </div>
+
+      <div class="manual-item">
+        <strong>Localização e horário</strong>
+        <p>Seja pontual e procure saber sobre o local da festa.</p>
+      </div>
+
+      <div class="manual-item">
+        <strong>Regras de acompanhamento</strong>
+        <p>Em hipótese alguma leve acompanhante sem a autorização.</p>
+      </div>
+
+      <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:0.95rem;color:var(--lilac-mid);margin-top:0.75rem;">
+        Tirem bastante fotos e se divirtam!
+      </p>
     </div>
 
     <div class="btn-row">
